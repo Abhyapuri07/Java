@@ -18,7 +18,7 @@ public class CompareTwoArray{
         } 
 
         if (array1.length != array2.length){
-            System.out.println("Arrays are not equal");
+            System.out.println("Arrays are not equal");}
         
 
         else{
@@ -29,8 +29,8 @@ public class CompareTwoArray{
                         //System.out.println("Arrays are equal");
                     
                     
-                    System.out.println("Arrays are equal");
-                    else
+                    System.out.println("Arrays are equal");}
+                    else{
                         System.out.println("Arrays are unequal");
                     }
                     
