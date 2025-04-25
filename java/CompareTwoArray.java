@@ -16,14 +16,15 @@ public class CompareTwoArray{
         for(int i=0; i<m; i++){
             array2[i]=in.nextInt();
         } 
-
+        boolean status=true;
         if (array1.length != array2.length){
+            status=false;
             System.out.println("Arrays are not equal");}
         
 
         else{
            // if(array1.length == array2.length){
-                for(int i=0; i<array1.length; i++){
+              /*  for(int i=0; i<array1.length; i++){
                     if(array1[i]==array2[i])
                     {
                         //System.out.println("Arrays are equal");
@@ -35,7 +36,14 @@ public class CompareTwoArray{
                     }
                     
                 
-                }
+                }*/
+               status=false;
         }
+        if(status==true)
+        {
+            System.out.println("Arrays are equal");
+        }
+        else
+        System.out.println("Arrays are unequal");
     }
 }
